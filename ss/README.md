@@ -1,0 +1,4 @@
+```
+# .env
+PASSWORD=<YOUR PASSWORD>
+```
