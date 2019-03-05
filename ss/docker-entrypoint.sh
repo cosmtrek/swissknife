@@ -8,4 +8,6 @@ exec ss-server -s $SERVER_ADDR \
                -m $METHOD \
                -t $TIMEOUT \
                --fast-open \
+               --plugin obfs-server \
+               --plugin-opts "obfs=http" \
                -u
